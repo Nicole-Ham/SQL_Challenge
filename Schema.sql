@@ -12,12 +12,14 @@ CREATE TABLE "departments" (
 
 CREATE TABLE "dept_manager" (
     "dept_no" varchar   NOT NULL,
-    "emp_no" varchar   NOT NULL
+    "emp_no" varchar   NOT NULL, 
+    primary key("dept_no","emp_no")
 );
 
 CREATE TABLE "dept_emp" (
     "emp_no" varchar   NOT NULL,
-    "dept_no" varchar   NOT NULL
+    "dept_no" varchar   NOT NULL,
+    primary key("dept_no","emp_no")
 );
 
 CREATE TABLE "employees" (
