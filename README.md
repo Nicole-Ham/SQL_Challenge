@@ -15,4 +15,6 @@ LIMIT is only in code due to issue.
 
 Sketch of ERD from https://www.quickdatabasediagrams.com/ 
 
+![QuickDBD-export](https://github.com/Nicole-Ham/SQL_Challenge/assets/134648078/16395593-6dc5-4360-bcc8-2a5bc9ad06fb)
+
 
